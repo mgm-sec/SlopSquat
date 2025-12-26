@@ -2,6 +2,12 @@
 
 This repository contains an **educational proof-of-concept (PoC)** demonstrating **npm supply-chain risks**, with a specific focus on **slopsquatting** and **implicit code execution** in Node.js.
 
+>[!Warning]
+>Repo Docs and PoC are created with LLM's and may contain errors/inconsitencies. Global findings have been checked manualy, but may still be off for edge cases.
+>Report any findings via the Issues to help with mitigation.
+>
+>This is **NOT** a full guide to npm security/hardening
+
 It shows how a dependency can execute code:
 
 - **During installation** (`postinstall`)
